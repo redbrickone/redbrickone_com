@@ -1,0 +1,22 @@
+uuid: 41816543-0c61-49e9-8454-02102488216e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - redbrickone
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: redbrickone_local_tasks
+theme: redbrickone
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
